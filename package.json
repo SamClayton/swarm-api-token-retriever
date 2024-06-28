@@ -1,0 +1,32 @@
+{
+  "name": "swarm-api-token-retriever",
+  "version": "0.1.0",
+  "description": "Retrieve a Foursquare Swarm OAuth token",
+  "main": "server.js",
+  "author": {
+    "name": "Sam Clayton",
+    "email": "sam.clayton@gmail.com",
+    "url": "https://github.com/SamClayton"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "querystring": "^0.2.1",
+    "axios": "^1.7.2"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/SamClayton/swarm-api-token-retriever"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "foursquare",
+    "swarm"
+  ]
+}
